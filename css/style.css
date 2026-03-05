@@ -37,7 +37,7 @@ video {
 	le tue regole, se necessario. */
 	display: flex;
 	color: white;
-	margin: 10px;
+	margin: 20px;
 }
 
 .reel-header div {
@@ -112,7 +112,7 @@ footer div span {
 .description {
 	position: absolute;
 	left: 0;
-	bottom: 110px;
+	bottom: 45px;
 	color: white;
 	margin: 10px;
 }
@@ -125,6 +125,7 @@ footer div span {
 /* bonus */
 .notifica {
 	position: relative;
+	opacity: 0.3;
 }
 
 .notifica::after {
@@ -138,11 +139,19 @@ footer div span {
 	border-radius: 50%;
 }
 
+.reel-header div span:last-child {
+	border-bottom: 2px solid;
+}
+
+.reel-header div span:first-child {
+	opacity: 0.3;
+}
+
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-.debug footer {
+/* .debug footer {
 	min-height: 100px;
 	border: 2px dashed #fff;
 }
@@ -156,6 +165,6 @@ da rimuovere una volta concluso
 .debug .reel-header {
 	min-height: 50px;
 	border: 2px dashed #fff;
-}
+} */
 
 /* --------------------- */
