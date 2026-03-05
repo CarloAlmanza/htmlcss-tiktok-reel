@@ -122,6 +122,22 @@ footer div span {
 	margin-bottom: 10px;
 }
 
+/* bonus */
+.notifica {
+	position: relative;
+}
+
+.notifica::after {
+	content: "";
+	position: absolute;
+	top: -4px;
+	right: -8px;
+	width: 8px;
+	height: 8px;
+	background: red;
+	border-radius: 50%;
+}
+
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
