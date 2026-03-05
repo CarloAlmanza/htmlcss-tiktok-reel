@@ -18,7 +18,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -39,7 +40,7 @@ video {
 	margin: 10px;
 }
 
-.reel-header div{
+.reel-header div {
 	display: flex;
 	gap: 10px;
 }
@@ -61,17 +62,17 @@ footer {
 	align-items: center;
 }
 
-footer div{
+footer div {
 	display: flex;
 	flex-direction: column;
-    align-items: center;
+	align-items: center;
 }
 
-footer div i{
+footer div i {
 	font-size: 25px;
 }
 
-footer div span{
+footer div span {
 	font-size: 10px;
 }
 
@@ -88,23 +89,37 @@ footer div span{
 	flex-direction: column;
 	color: white;
 	gap: 20px;
-    align-items: center;
+	align-items: center;
 }
 
-.sidebar div{
+.sidebar div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.sidebar div i{
+.sidebar div i {
 	font-size: 25px;
 }
 
-.logo{
+.logo {
 	width: 40px;
-    border-radius: 50%;
-    border: 1px solid white;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+/* Descrizione */
+.description {
+	position: absolute;
+	left: 0;
+	bottom: 110px;
+	color: white;
+	margin: 10px;
+}
+
+.description p:first-of-type {
+	font-size: 12px;
+	margin-bottom: 10px;
 }
 
 /* ---------------------
