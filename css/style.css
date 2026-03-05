@@ -60,6 +60,7 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	padding: 10px;
 }
 
 footer div {
@@ -112,7 +113,7 @@ footer div span {
 .description {
 	position: absolute;
 	left: 0;
-	bottom: 45px;
+	bottom: 60px;
 	color: white;
 	margin: 10px;
 }
@@ -145,6 +146,22 @@ footer div span {
 
 .reel-header div span:first-child {
 	opacity: 0.3;
+}
+
+.message {
+	position: relative;
+}
+
+.message::after {
+	content: "19";
+	position: absolute;
+	top: -5px;
+	right: 5px;
+	width: 30px;
+	height: 20px;
+	background: red;
+	border-radius: 50%;
+	text-align: center
 }
 
 /* ---------------------
