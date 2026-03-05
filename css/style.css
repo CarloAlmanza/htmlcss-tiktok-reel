@@ -109,6 +109,22 @@ footer div span {
 	border: 1px solid white;
 }
 
+.logo-wrapper {
+	position: relative;
+}
+
+.logo-wrapper::after {
+	content: "+";
+	position: absolute;
+	bottom: -12px;
+	right: 8px;
+	width: 22px;
+	height: 22px;
+	background: red;
+	border-radius: 50%;
+	text-align: center;
+}
+
 /* Descrizione */
 .description {
 	position: absolute;
