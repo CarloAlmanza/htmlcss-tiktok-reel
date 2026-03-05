@@ -180,6 +180,14 @@ footer div span {
 	text-align: center
 }
 
+.bi-plus-square-fill::before {
+	border-left: 3px solid rgb(0 255 255);
+	border-right: 3px solid rgb(255 0 255);
+	border-radius: 5px;
+	font-size: 35px;
+	transform: scaleY(0.7);
+}
+
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
